@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd.exe /c \"where node 2>&1\")",
+      "Bash(cmd.exe /c \"where npm 2>&1\")",
+      "Bash(cmd.exe /c \"where node\")",
+      "Read(//c/Program Files/nodejs/**)",
+      "Read(//c/Users/u1049/AppData/Roaming/nvm/current/**)",
+      "Read(//c/Users/u1049/**)",
+      "Bash(powershell.exe -Command \"Get-Command node -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source\")",
+      "Bash(powershell.exe -Command \"where.exe node 2>&1; where.exe npm 2>&1\")",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
